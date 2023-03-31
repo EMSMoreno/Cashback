@@ -1,0 +1,47 @@
+<div class="container-total">
+  <!-- <form> -->
+  <table>
+    <thead>
+      <tr>
+        <td class="th-align-left w-400">Produto</td>
+        <td class="th-align-left">Preço total</td>
+        <td class="w-40"></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="td-padding-bottom">
+          <select name="perifericos" id="perifericos" style="width: 100%">
+            <option value="none"></option>
+            <option value="computador">Computador</option>
+            <option value="monitor">Monitor</option>
+            <option value="periféricos">Periféricos</option>
+          </select>
+        </td>
+        <td class="td-padding-bottom"><input class="total_price_input" type="number">
+        </td>
+        <td class="td-padding-bottom"><button id="btn_remove">x</button></td>
+      </tr>
+    </tbody>
+    <!-- <hr> -->
+    <tfoot>
+      <tr>
+        <td class="th-align-left" style="margin-top: 20px; margin-bottom: 20px;">Total</td>
+        <td>
+          <input class="total_price_input" type="number" readonly>
+        </td>
+        <td><button id="btn_plus">+</button>
+        </td>
+      </tr>
+    </tfoot>
+  </table>
+  <hr>
+  <label id="final">
+    <input id="check" type="checkbox">
+    <p class="regulamento">Li e aceito o <u href="/">Regulamento</u> da campanha</p>
+    <button id="subscricao_final" onclick="addItem()">Submeter Fatura</button>
+  </label>
+  <!-- </form> -->
+</div>
+
+<!-- <input type="string" name="produto" *ngFor="let produto of produtos">{{ produto }}> -->

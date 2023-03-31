@@ -1,0 +1,40 @@
+<div class="app">
+  <p class="description">Antes de preencher o formulário leia atentamente o <u href="/">Regulamento</u>.
+    <br>Preencha os campos com os dados da Fatura. Válido para produtos Président adquiridos de 25/01/2021 a
+    31/04/2021.
+    Data limite para registo de Faturas: 01/05/2021.
+    A fotografia da Fatura deverá estar devidamente legível, ter NIF do consumidor, produtos Président e data válida.
+    O NIF inserido no formulário tem que ser o mesmo da Fatura. Ao submeter a Fatura declara que concorda com o
+    <u href="/">Regulamento</u>.
+    Esta informação não despensa a leitura integral do <u href="/">Regulamento</u>.
+  </p>
+
+  <div class="row">
+    <div class="column-left">
+      <p>Clique para colocar a fotografia da sua Fatura. Caso faça upload de um ficheiro, o formato PDF não é permitido,
+        apenas PNG ou JPG.
+        Por favor, certifique-se que está devidamente legível, com o seu NIF, Nº Fatura, produtos Président e data entre
+        25/01/2021 a 30/04/2021.
+        Caso estes dados não sejam legíveis, o seu pedido poderá ser inválido. Se necessitar colocar mais do que uma
+        fotografia utilize o botão +
+        que se encontra no final desta Fatura exemplo.</p>
+
+      <app-firebase-anexar></app-firebase-anexar>
+      <!-- recebe botão para anexar imagem coluna 1 (esquerda) -->
+
+      <p class="end-text">Caso necessite de colocar mais que uma imagem da mesma Fatura, por favor, clique neste botão.
+        <br><b>ATENÇÃO: Não coloque diferentes Faturas no mesmo registo. Apenas será considerado a Fatura com o número
+          indicado no formulário.</b>
+      </p>
+    </div>
+    <div class="column-right">
+
+      <app-form></app-form>
+
+      <app-fatura-item></app-fatura-item>
+
+      <app-total></app-total>
+
+    </div>
+
+  </div>

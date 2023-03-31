@@ -1,0 +1,141 @@
+.container-total {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  margin-left: 10px;
+  background-color: white;
+}
+
+.container-total label,
+input {
+  max-width: 100%;
+  padding: 5px;
+  height: auto;
+  border-radius: 3px;
+  border: none;
+}
+
+.container-total select {
+  max-width: 500%;
+  padding: 5px;
+  height: auto;
+  border-radius: 3px;
+  border: none;
+}
+
+input {
+  background-color: rgb(250, 249, 249);
+}
+
+input::placeholder {
+  opacity: 0.9;
+}
+
+p {
+  color: grey;
+  display: inline-block;
+}
+
+select {
+  background-color: rgb(250, 249, 249);
+  height: 40px;
+}
+
+select option {
+  opacity: 0.9;
+  background-color: rgb(250, 249, 249);;
+}
+
+u {
+  color: rgb(226, 196, 25);
+}
+
+th {
+  color: grey;
+}
+
+.input-container {
+  position: relative;
+}
+
+
+.th-align-left {
+  text-align: left;
+}
+
+.w-400 {
+  width: 500px;
+}
+
+.th-align-right {
+  text-align: right;
+}
+
+.w-40 {
+  width: 40px;
+}
+
+.total_price {
+  background-color: rgb(250, 249, 249);
+  height: 20px;
+  width: 50%;
+  text-align: right;
+}
+
+tr {
+  border-bottom: 0.5px solid red;
+}
+
+.td-padding-bottom {
+  padding-bottom: 5px;
+}
+
+#btn_plus,
+#btn_remove {
+  position: absolute;
+  transform: translateY(-50%);
+}
+
+#btn_plus {
+  background-color: rgb(226, 196, 25);
+  color: white;
+  border: 0;
+  border-radius: 3px;
+  padding: 0.5em;
+  width: 33px;
+  text-transform: uppercase;
+}
+
+#btn_remove {
+  background-color: rgb(226, 42, 25);
+  color: white;
+  border: 0;
+  border-radius: 3px;
+  padding: 0.5em;
+  width: 33px;
+}
+
+.regulamento {
+  color: black;
+}
+
+#final,
+button {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  cursor: pointer;
+}
+
+#subscricao_final {
+  background-color: rgb(226, 196, 25);
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  padding: 0.5em;
+  width: 100%;
+  margin-top: 1em;
+  text-transform: uppercase;
+}

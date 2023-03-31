@@ -1,0 +1,52 @@
+.dados_pessoais {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  margin-left: 10px;
+  background-color: white;
+}
+
+.dados_pessoais label, input, select {
+  max-width: 100%;
+  padding: 5px;
+  height: auto;
+  border-radius: 3px;
+  border: none;
+}
+
+input {
+  background-color: rgb(250, 249, 249);
+  color: black;
+  margin: 0 0 1rem 0;
+}
+
+input::placeholder {
+  opacity: 0.9;
+  color: black;
+}
+
+select {
+  background-color: rgb(250, 249, 249);
+  height: 40px;
+}
+
+select option {
+  opacity: 0.7;
+  color: black;
+  background-color: rgb(250, 249, 249);;
+}
+
+label {
+  color:grey;
+}
+
+hr {
+  margin: 1rem 0;
+}
+
+#titulo_1 {
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
