@@ -1,4 +1,7 @@
-# Cashback - YES4WEB
+# Cashback App w/ TypeScript and Google's Infrastructure - YES4WEB
+
+Cashback app that allows you to upload an attachment (a receipt) to a company's human resources team so that you can receive a refund for the product you purchased on behalf of the company.
+The app is used by biggest Portuguese companies such as Ageas Seguros, Delta Cafés, NOS (SGPS), PEPSICO and Sumol+Compal.
 
 This project is a generic cashback functionality used for internal software of companies, in terms of invoicing and was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.4.
 
